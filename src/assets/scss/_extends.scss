@@ -1,0 +1,83 @@
+/*
+  通用样式
+ */
+ // 手机端flex布局相关
+%flex-center {
+  display: flex;
+  align-items: center;
+}
+%flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+%flex-column {
+  display: flex;
+  flex-flow: column;
+}
+
+%flex-baseline {
+  display: flex;
+  align-items: baseline;
+}
+
+%flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%flex-between-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+%flex-column-center {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+%flex-column-between {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+// 文字超出省略号
+%ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+//图片盒子
+%imgBox{
+  display: inline-block;
+  font-size: 0;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+// 两行文本溢出省略符
+%ellipsisTwoRows {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+// 居中
+%text-center{
+  text-align: center;
+}
+
+//底部边框颜色
+%border-bottom{
+  border-bottom: 1px solid #e2e7eb;
+}
+
